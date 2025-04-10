@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/budget_codex/static/css/main.8f0396b6.css",
-    "main.js": "/budget_codex/static/js/main.8b146c70.js",
+    "main.js": "/budget_codex/static/js/main.174fbf28.js",
     "static/media/VC-Bg.jpg": "/budget_codex/static/media/VC-Bg.96c47b5c5700dc846171.jpg",
     "static/media/Naval_MerchantShipPreview.png": "/budget_codex/static/media/Naval_MerchantShipPreview.b5e42845a6612b493a1e.png",
     "static/media/Component_HealingAura.png": "/budget_codex/static/media/Component_HealingAura.4cb349cd24925f7eeec9.png",
@@ -2095,10 +2095,10 @@
     "static/media/Skin_Raven.png": "/budget_codex/static/media/Skin_Raven.18f5eae5e604d47edadc.png",
     "index.html": "/budget_codex/index.html",
     "main.8f0396b6.css.map": "/budget_codex/static/css/main.8f0396b6.css.map",
-    "main.8b146c70.js.map": "/budget_codex/static/js/main.8b146c70.js.map"
+    "main.174fbf28.js.map": "/budget_codex/static/js/main.174fbf28.js.map"
   },
   "entrypoints": [
     "static/css/main.8f0396b6.css",
-    "static/js/main.8b146c70.js"
+    "static/js/main.174fbf28.js"
   ]
 }
