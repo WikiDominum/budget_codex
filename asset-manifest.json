@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/budget_codex/static/css/main.b4808bfc.css",
-    "main.js": "/budget_codex/static/js/main.e6ab78f8.js",
+    "main.css": "/budget_codex/static/css/main.7c406581.css",
+    "main.js": "/budget_codex/static/js/main.db898877.js",
     "static/media/VC-Bg.jpg": "/budget_codex/static/media/VC-Bg.96c47b5c5700dc846171.jpg",
     "static/media/Naval_MerchantShipPreview.png": "/budget_codex/static/media/Naval_MerchantShipPreview.b5e42845a6612b493a1e.png",
     "static/media/Component_HealingAura.png": "/budget_codex/static/media/Component_HealingAura.4cb349cd24925f7eeec9.png",
@@ -2094,11 +2094,11 @@
     "static/media/Reagent_PrismaCrystal.png": "/budget_codex/static/media/Reagent_PrismaCrystal.7172ab9db864800e64c6.png",
     "static/media/Skin_Raven.png": "/budget_codex/static/media/Skin_Raven.18f5eae5e604d47edadc.png",
     "index.html": "/budget_codex/index.html",
-    "main.b4808bfc.css.map": "/budget_codex/static/css/main.b4808bfc.css.map",
-    "main.e6ab78f8.js.map": "/budget_codex/static/js/main.e6ab78f8.js.map"
+    "main.7c406581.css.map": "/budget_codex/static/css/main.7c406581.css.map",
+    "main.db898877.js.map": "/budget_codex/static/js/main.db898877.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4808bfc.css",
-    "static/js/main.e6ab78f8.js"
+    "static/css/main.7c406581.css",
+    "static/js/main.db898877.js"
   ]
 }
