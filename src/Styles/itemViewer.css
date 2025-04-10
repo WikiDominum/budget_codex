@@ -132,7 +132,7 @@
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  background-color: hsl(var(--dark) / var(--tw-bg-opacity));
+  background-color: rgb(18, 18, 18);
 }
 
 .set-bonus-container {
@@ -451,7 +451,7 @@
 }
 
 .grid > div.core-stat:nth-child(even) {
-  color: hsl(var(--secondary) / var(--tw-text-opacity))
+  color: rgb(209, 209, 209)
 }
 
 .grid > div.primary-stat:nth-child(even) {

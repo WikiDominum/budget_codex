@@ -123,31 +123,31 @@ function ItemDetails({ selectedItemGuid, selectedRarity, enchantLevel, onEnchant
     return match ? match[1] : rawDisplayName;
   };
 
-  const renderStat = (statName, statValues, rarity) => {
-    if (statValues) {
-      if (
-        statValues[`${rarity}Min`] !== undefined &&
-        statValues[`${rarity}Max`] !== undefined
-      ) {
-        return (
-          <li key={statName} className="base-stat">
-            <span className="stat-name">{formatStatName(statName)}: </span>
-            <span className={`stat-value ${rarity}`}>
-              {statValues[`${rarity}Min`]} - {statValues[`${rarity}Max`]}
-            </span>
-          </li>
-        );
-      } else if (statValues[rarity] !== undefined) {
-        return (
-          <li key={statName} className="set-bonus-stat-value">
-            <span className="stat-name">{formatStatName(statName)}</span>
-            <span className={rarity}>{statValues[rarity]}</span>
-          </li>
-        );
-      }
-    }
-    return null;
-  };
+  // const renderStat = (statName, statValues, rarity) => {
+  //   if (statValues) {
+  //     if (
+  //       statValues[`${rarity}Min`] !== undefined &&
+  //       statValues[`${rarity}Max`] !== undefined
+  //     ) {
+  //       return (
+  //         <li key={statName} className="base-stat">
+  //           <span className="stat-name">{formatStatName(statName)}: </span>
+  //           <span className={`stat-value ${rarity}`}>
+  //             {statValues[`${rarity}Min`]} - {statValues[`${rarity}Max`]}
+  //           </span>
+  //         </li>
+  //       );
+  //     } else if (statValues[rarity] !== undefined) {
+  //       return (
+  //         <li key={statName} className="set-bonus-stat-value">
+  //           <span className="stat-name">{formatStatName(statName)}</span>
+  //           <span className={rarity}>{statValues[rarity]}</span>
+  //         </li>
+  //       );
+  //     }
+  //   }
+  //   return null;
+  // };
 
   const renderSetBonusStatsInline = (setBonus) => {
     if (!setBonus || Object.keys(setBonus).length === 0) {
@@ -196,11 +196,11 @@ function ItemDetails({ selectedItemGuid, selectedRarity, enchantLevel, onEnchant
 
   const enchantedStats = getEnchantedStats(selectedItem, enchantLevel);
 
-  const getItemStat = (statName) => {
-    return enchantedStats?.[statName]?.values?.[selectedRarity + 'Min'] !== undefined
-      ? enchantedStats[statName].values[selectedRarity + 'Min']
-      : enchantedStats?.[statName]?.values?.[selectedRarity + 'Max'];
-  };
+  // const getItemStat = (statName) => {
+  //   return enchantedStats?.[statName]?.values?.[selectedRarity + 'Min'] !== undefined
+  //     ? enchantedStats[statName].values[selectedRarity + 'Min']
+  //     : enchantedStats?.[statName]?.values?.[selectedRarity + 'Max'];
+  // };
 
   const itemRarity = selectedRarity?.toLowerCase() || 'common';
   const itemName = selectedItem?.name || selectedItem?.itemName || 'Unknown Item';
@@ -282,13 +282,13 @@ function ItemDetails({ selectedItemGuid, selectedRarity, enchantLevel, onEnchant
             if (statValue !== undefined) {
               return (
                 <React.Fragment key={statName}>
-                  <div className={archetypeClass}> {/* Apply archetype class to the container */}
+                  <div className={archetypeClass}>
                     <div className="flex w-32 items-center gap-2">
                       <div className="h-2 w-2 rotate-45 bg-white"></div>
                       <span>{statValue}</span>
                     </div>
                   </div>
-                  <div className={`w-full text-lg ${archetypeClass}`} tabIndex="0"> {/* Apply archetype class here too for styling the name */}
+                  <div className={`w-full text-lg ${archetypeClass}`} tabIndex="0"> 
                     {formatStatName(statName)}
                   </div>
                 </React.Fragment>
