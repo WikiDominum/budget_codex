@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/budget_codex/static/css/main.8a4e861a.css",
-    "main.js": "/budget_codex/static/js/main.78da72b5.js",
+    "main.css": "/budget_codex/static/css/main.0dcd015a.css",
+    "main.js": "/budget_codex/static/js/main.ec122d23.js",
     "static/media/VC-Bg.jpg": "/budget_codex/static/media/VC-Bg.96c47b5c5700dc846171.jpg",
     "static/media/TUI_Icon_Component_HealingAura.png": "/budget_codex/static/media/TUI_Icon_Component_HealingAura.4cb349cd24925f7eeec9.png",
     "static/media/TUI_Icon_Crate_2x3_General_T1.png": "/budget_codex/static/media/TUI_Icon_Crate_2x3_General_T1.859d0bef1fcb95fb21e8.png",
@@ -1183,11 +1183,11 @@
     "static/media/TUI_Icon_Gear_Weapons_Spear_2H_Copper.png": "/budget_codex/static/media/TUI_Icon_Gear_Weapons_Spear_2H_Copper.c98037dc20b430353405.png",
     "static/media/TUI_Icon_Gear_Crowbar_Novice.png": "/budget_codex/static/media/TUI_Icon_Gear_Crowbar_Novice.8f12d6895e3527ed3495.png",
     "index.html": "/budget_codex/index.html",
-    "main.8a4e861a.css.map": "/budget_codex/static/css/main.8a4e861a.css.map",
-    "main.78da72b5.js.map": "/budget_codex/static/js/main.78da72b5.js.map"
+    "main.0dcd015a.css.map": "/budget_codex/static/css/main.0dcd015a.css.map",
+    "main.ec122d23.js.map": "/budget_codex/static/js/main.ec122d23.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a4e861a.css",
-    "static/js/main.78da72b5.js"
+    "static/css/main.0dcd015a.css",
+    "static/js/main.ec122d23.js"
   ]
 }
